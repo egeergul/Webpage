@@ -1,0 +1,147 @@
+/**---COLORS---**/
+:root {
+  --lila:	#996680;
+  --lila-contrast:#996666;
+  --light-red:#d9471e;
+  --yellow:#ffbb00;
+  --yellow-hover:#ffee00;
+  --light-blue:#669999;
+  --orange:#b07e21;
+  --white: #d9d9d9;
+}
+body {
+  background-color: var(--lila);
+  font-family: 'Indie Flower', cursive;
+  color: var(--white);
+}
+#top-header{
+  background-color: var(--light-blue);
+  color: var(--lila);
+  overflow: hidden;
+  display: block;
+  font-weight: bold;
+}
+.nav-brand span{
+  font-weight: 600;
+}
+nav ul li {
+  color: var(--lila);
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+  border-right: 1px solid var(--lila);
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+nav ul li:last-child{
+  border: none;
+  margin-right: 0;
+  padding: 0;
+}
+nav ul li a:hover{
+  color: var(--light-red);
+  font-weight: bolder;
+}
+.anchored-right{
+  position: absolute;
+  color: var(--wite);
+}
+footer .container{
+  background-color: var(--light-blue);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+footer .container .row p{
+  padding: 15px;
+  width: 70%;
+  margin: auto;
+}
+footer .container .row span {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--white);
+}
+footer .container .row .footer-end span {
+  border: none;
+  display: inline-block;
+  width: ;
+  font-size: 1rem;
+  font-weight: 300;
+}
+footer .container .row span.contact-item {
+  font-size: 1rem;
+  font-weight: 100;
+  border: none;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+#map{
+  frameborder: 0;
+  allowfullscreen: true;
+  aria-hidden: false;
+  tabindex: 0;
+}
+footer table {
+  width: 70%;
+  margin: auto;
+}
+footer table tr{
+  text-align: right;
+  height: 50px;
+}
+footer table tr th:last-child{
+  text-align: center;
+}
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+.card{
+  background: green;
+}
+.card-bg{
+  background: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  visibility: hidden;
+}
+.section-header {
+  background-color: var(--light-blue);
+  color: var(--orange);
+  font-size: 2.5rem;
+}
+.section-item{
+  clear: both;
+  padding:20px;
+}
+.about {
+  height: 300px;
+  width: auto;
+}
+.tabs {
+
+}
+.pdf-card{
+  margin: auto;
+  width: 70%;
+  height: auto;
+  margin-bottom: 30px;
+}
